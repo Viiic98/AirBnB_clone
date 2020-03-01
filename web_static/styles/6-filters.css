@@ -1,0 +1,88 @@
+.filters {
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    display: flex;
+}
+
+.b_search {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: unset;
+    margin: auto 30px auto auto;
+}
+
+.b_search:hover {
+    opacity: 90%;
+}
+
+.locations,
+.amenities {
+    height: 100%;
+    width: 25%;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
+.amenities {
+    border: unset;
+}
+
+.title {
+    font-weight: 600;
+    padding-left: 3rem;
+    margin: 1rem 0 .1rem 0;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 3rem;
+    margin-top: 0rem;
+}
+
+.filters,
+.b_search,
+.popover {
+    border-radius: 4px;
+}
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding: 1rem 0 2rem 2rem;
+}
+.state,
+.cities,
+.ameni_list {
+    list-style-type: none;
+}
+.state > h2 {
+    font-size: 16px;
+    margin: unset;
+}
+.state {
+    position: relative;
+    padding: 0rem 0rem 1.5rem 0rem;
+}
+.cities {
+    position: relative;
+    left: -20px;
+    padding-top: .5rem;
+}
+.ameni_list {
+    padding-top: .5rem;
+}
