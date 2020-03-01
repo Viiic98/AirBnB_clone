@@ -1,0 +1,25 @@
+.places {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title_places {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+.title_art {
+    text-align: center;
+}
+.title_places,
+.title_art {
+    font-size: 30px;
+}
+.art_places {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
