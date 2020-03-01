@@ -25,7 +25,7 @@
     width: 25%;
 }
 .locations {
-    border: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
 }
 .amenities {
     border: unset;
