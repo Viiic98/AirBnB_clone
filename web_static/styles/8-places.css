@@ -45,7 +45,7 @@
     position: absolute;
     right: 5px;
     bottom: 12.5px;
-    top: 12.5;
+    top: 12.5px;
 }
 
 .information {
@@ -93,6 +93,5 @@
 }
 
 .user {
-    display: absolute;
     margin-top: 10px;
 }
