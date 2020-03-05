@@ -32,7 +32,7 @@
 
 .locations:hover .popover,
 .amenities:hover .popover {
-    display: block;
+    visibility: visible;
 }
 
 .amenities {
@@ -59,11 +59,12 @@
 }
 
 .popover {
-    display: none;
+    visibility: hidden;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     position: relative;
     padding: 1rem 0 2rem 2rem;
+    z-index: 1;
 }
 .state,
 .cities,
